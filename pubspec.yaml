@@ -1,0 +1,36 @@
+name: amaq_downloader
+description: "AMAQ DOWNLOADER - تطبيق أندرويد لتنزيل الفيديوهات والصوتيات بدون إعلانات برعاية أعماق للاتصالات"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # In-App Browser for SnapTube-like sniffing
+  flutter_inappwebview: ^6.1.5
+
+  # Network & Fast Multi-threaded Download
+  dio: ^5.7.0
+
+  # Storage & System
+  path_provider: ^2.1.5
+  permission_handler: ^11.3.1
+  open_filex: ^4.5.0
+  share_plus: ^10.1.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

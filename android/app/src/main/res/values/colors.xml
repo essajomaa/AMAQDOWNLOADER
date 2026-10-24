@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AMAQDOWNLOADER Brand Color Palette -->
+    <color name="amaq_primary">#0B3358</color>
+    <color name="amaq_primary_dark">#061A30</color>
+    <color name="amaq_accent">#38BDF8</color>
+    <color name="amaq_signal_cyan">#94C8E3</color>
+    <color name="amaq_background_dark">#07182B</color>
+    <color name="amaq_card_dark">#0B2138</color>
+    <color name="amaq_text_primary">#FFFFFF</color>
+    <color name="amaq_text_secondary">#94A3B8</color>
+    <color name="amaq_success">#10B981</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AMAQDOWNLOADER</string>
+    <string name="app_subtitle">أعماق للاتصالات - تنزيل فائق السرعة بدون إعلانات</string>
+    <string name="paste_hint">ألصق رابط الفيديو من يوتيوب، فيسبوك، تيك توك...</string>
+    <string name="download_button">تنزيل فوري</string>
+    <string name="quality_select">اختر الجودة المطلوبة</string>
+    <string name="no_ads_tag">بدون إعلانات 100%</string>
+</resources>
