@@ -91,7 +91,7 @@ class DownloadService extends ChangeNotifier {
       item.speedMBs = 0.0;
       notifyListeners();
     } catch (e) {
-      if (CancelToken.isCancel(e as DioException)) {
+      if (e is DioException && CancelToken.isCancel(e)) {
         item.status = DownloadStatus.paused;
       } else {
         item.status = DownloadStatus.error;
